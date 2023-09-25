@@ -1,4 +1,5 @@
 <script>
+// note
     import axios from 'axios'
     import Sdd from 'svelte-device-detector'
 
