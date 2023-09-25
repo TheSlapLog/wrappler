@@ -71,7 +71,7 @@
  -->
 <Sdd showInDevice="mobile">
     <h1 class="font-extrabold text-4xl">wrappler <p class="ml-5 text-5xl underline mb-2">saves</p></h1>
-    <div class="w-full outline-none" id="form">
+    <div class="w-11/12 outline-none m-auto" id="form">
         <input 
         class="border-2 border-gray-800 mt-1 h-12 w-full p-2 outline-none"
         placeholder="phone number"
