@@ -106,6 +106,7 @@
     </div>
     <div bind:this={qrspace} class="w-40 h-40 m-auto mt-4" id="qr-space"></div>
     <p class="text-amber-900 font-extrabold text-4xl text-center select-none p-4 w-fit m-auto" bind:this={screenshot}></p>
+    <p class="text-amber-900 font-extrabold text-4xl text-center p-4 w-fit m-auto" bind:this={yourCode}></p>
 </Sdd>
 
 <Sdd showInDevice="desktop">
