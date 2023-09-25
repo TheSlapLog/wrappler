@@ -23,6 +23,7 @@
     let qrspace
 
     let screenshot
+    let yourCode
 
     let ihnu
     let ihem
@@ -61,6 +62,7 @@
             })
 
             screenshot.innerText = screenshotText
+            yourCode.innerText = 'Your code is: ' + saveID
         })
 
     }
@@ -138,5 +140,6 @@
         </div>
         <div bind:this={qrspace} class="w-40 h-40 m-auto" id="qr-space"></div>
         <p class="text-amber-900 font-extrabold text-4xl text-center select-none p-4 w-fit m-auto" bind:this={screenshot}></p>
-    </main>
+        <p class="text-amber-900 font-extrabold text-4xl text-center p-4 w-fit m-auto" bind:this={yourCode}></p>
+</main>
 </Sdd>
